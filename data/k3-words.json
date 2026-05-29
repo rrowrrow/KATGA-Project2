@@ -1,0 +1,19 @@
+{
+  "answers": [
+    { "word": "APD", "meaning": "APD: alat pelindung diri untuk melindungi pekerja dari bahaya." },
+    { "word": "SOP", "meaning": "SOP: prosedur operasi standar agar pekerjaan dilakukan aman dan konsisten." },
+    { "word": "AUDIT", "meaning": "Audit K3: evaluasi sistematis untuk memastikan kepatuhan dan menemukan perbaikan." },
+    { "word": "INSPEKSI", "meaning": "Inspeksi: pemeriksaan rutin untuk menemukan kondisi/tindakan tidak aman." },
+    { "word": "EVAKUASI", "meaning": "Evakuasi: proses keluar menuju tempat aman saat keadaan darurat." },
+    { "word": "BAHAYA", "meaning": "Bahaya (hazard): sumber/kondisi yang berpotensi menyebabkan cedera/kerusakan." },
+    { "word": "RISIKO", "meaning": "Risiko: peluang terjadinya dampak bahaya dan tingkat keparahannya." },
+    { "word": "INSIDEN", "meaning": "Insiden: kejadian tak diinginkan terkait pekerjaan, tidak selalu menyebabkan cedera." },
+    { "word": "CELAKA", "meaning": "Celaka: kejadian yang menimbulkan kerugian/cedera (kecelakaan kerja)." },
+    { "word": "NEARMISS", "meaning": "Near miss: kejadian nyaris celaka; penting dilaporkan untuk pencegahan." },
+    { "word": "KEBAKARAN", "meaning": "Kebakaran: keadaan darurat api; perlu alarm, APAR, dan evakuasi." },
+    { "word": "VENTILASI", "meaning": "Ventilasi: pengendalian udara untuk mengurangi paparan debu/uap/kimia." },
+    { "word": "PAPARAN", "meaning": "Paparan: exposure; kontak dengan bahaya (debu/kimia/bising) melalui hirup/sentuh." },
+    { "word": "KOROSIF", "meaning": "Korosif: sifat bahan yang dapat merusak kulit/logam; butuh kontrol dan APD." },
+    { "word": "BERACUN", "meaning": "Beracun: zat yang dapat meracuni tubuh; perlu label, prosedur, dan kontrol." }
+  ]
+}
