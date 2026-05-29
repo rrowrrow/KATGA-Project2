@@ -1,1 +1,7 @@
-{ "words": ["AUDIT","CEGAH","JATUH","LICIN","PANAS","GETAR","RACUN","LABEL","RAMBU","WASPA","PATUH","LAPOR"] }
+{
+  "words": [
+    "amanan","cegah","jatuh","licin","panas","getar","racun","label","rambu",
+    "waspa","patuh","lapor","kerja","bahan","tanda","titik","ruang","mesin",
+    "pukul","motor","tenan","sadar","hidup","listrik","beban"
+  ]
+}
