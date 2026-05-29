@@ -51,7 +51,7 @@ function clampGuessString(s){
 async function loadK3Words(){
   setMessage("Memuat kamus K3...");
   // Path absolut agar stabil di Vercel (hindari 404 karena path relatif)
-  const res = await fetch("/data/k3-words.json", { cache: "no-store" });
+  const res = await fetch("/data/words.json", { cache: "no-store" });
   if(!res.ok) throw new Error("Gagal load /data/k3-words.json: " + res.status);
 
   const data = await res.json();
