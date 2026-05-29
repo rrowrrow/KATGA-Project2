@@ -1,1 +1,7 @@
-{ "words": ["INSPEKSI","EVAKUASI","NEARMISS","KESELAMT","KESEHATN","PELINDUN","TERTULIS","PENGAMAN"] }
+{
+  "words": [
+    "inspeksi","evakuasi","ventilasi","kebakaran","pelindung",
+    "alataman","prosedur","peralatan","pemantau","pemadam",
+    "pencegah","pengaman"
+  ]
+}
