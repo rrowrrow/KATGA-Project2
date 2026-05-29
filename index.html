@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KATGA K3</title>
+  <title>KATGA K3 (3–12 Huruf)</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
 </head>
 <body>
   <main class="wrap">
     <header class="header">
       <h1>KATGA K3</h1>
       <p class="sub">
-        Tebak <b>5 huruf</b> istilah K3. Ketik A–Z / klik keyboard.
-        <b>Enter</b> untuk submit, <b>⌫</b> untuk hapus.
+        Tebak kata terkait K3. Panjang kata dinamis <b>3–12 huruf</b>.
+        Tekan <b>Enter</b> untuk submit, <b>⌫</b> untuk hapus.
       </p>
-      <p class="hint">Kategori (hint): <b id="category">-</b></p>
     </header>
 
     <section class="game">
@@ -24,20 +24,11 @@
 
       <div class="controls">
         <div class="row">
-          <input
-            id="guess"
-            class="input"
-            type="text"
-            inputmode="text"
-            autocomplete="off"
-            maxlength="5"
-            placeholder="(Opsional) Ketik 5 huruf"
-          />
+          <input id="guess" class="input" type="text" maxlength="12" autocomplete="off" placeholder="Ketik..." />
           <button id="submit" class="btn primary">Coba</button>
           <button id="reset" class="btn">Reset</button>
           <button id="share" class="btn" disabled>Copy Hasil</button>
         </div>
-
         <p id="message" class="message" role="status" aria-live="polite"></p>
       </div>
 
@@ -46,10 +37,18 @@
     </section>
 
     <footer class="footer">
-      <small>Mode K3: tebakan dan jawaban harus istilah K3.</small>
+      <small>Jawaban: istilah K3. Tebakan: kamus umum per panjang kata (3–12).</small>
     </footer>
   </main>
 
-  <script src="js/script.js"></script>
+  <!-- Modal Makna Kata (muncul saat menang) -->
+  <div id="meaningModal" class="modal" aria-hidden="true">
+    <div class="modalContent" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <h2 id="modalTitle">Jawaban Benar ✅</h2>
+      <p class="modalWord">Kata: <b id="modalWord">-</b></p>
+      <p id="modalMeaning" class="modalMeaning">-</p>
+      <button id="closeModal" class="btn primary">Tutup</button>
+    </div>
+  </div>
 </body>
 </html>
